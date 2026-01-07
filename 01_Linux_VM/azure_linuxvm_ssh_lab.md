@@ -76,8 +76,6 @@ Search → Virtual Machines → Create → Azure Virtual Machine
 ---
 
 ## 🔑 Step 8: Connect to Linux VM via SSH
-
-```bash
 ssh -i <private-key-file-path> azureuser@20.197.53.147
 
 ---
