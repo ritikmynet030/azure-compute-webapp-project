@@ -1,0 +1,103 @@
+
+## 🧪 Lab Objective
+- Create a Linux VM in Azure
+- Connect securely using SSH
+- Install and verify Apache Web Server
+- Configure NSG inbound rules
+- Test web access using Public IP
+
+---
+
+## 🔹 Step 1: Login to Azure Portal
+Login to https://portal.azure.com
+
+📸 Screenshot  
+![Resource Group](screenshots/01-resource-group.png)
+
+---
+
+## 🔹 Step 2: Create Resource Group
+- Name: `rg-linuxvm-lab`
+- Region: `Central India`
+
+📸 Screenshot  
+![Resource Group](screenshots/01-resource-group.png)
+
+---
+
+## 🔹 Step 3: Create Virtual Machine
+Search → Virtual Machines → Create → Azure Virtual Machine
+
+---
+
+## 🔹 Step 4: VM Basics Configuration
+
+| Setting | Value |
+|------|------|
+| Subscription | Free Trial |
+| Resource Group | rg-linuxvm-lab |
+| VM Name | linux-vm01 |
+| Region | Central India |
+| Availability | No infrastructure redundancy |
+| Image | Ubuntu Server 22.04 LTS |
+| Size | Standard_B1s |
+| Authentication | SSH Public Key |
+| Username | azureuser |
+| SSH Key | Generate new key pair |
+| Key Pair Name | linux-vm-key |
+| Inbound Port | SSH (22) |
+
+📸 Screenshot  
+![VM Basics](screenshots/02-vm-basics.png)
+
+---
+
+## 🔹 Step 5: Disk Configuration
+- OS Disk: Standard SSD
+- Default settings
+
+---
+
+## 🔹 Step 6: Networking Configuration
+- VNet: Auto-created
+- Subnet: Default
+- Public IP: New
+- NSG: Basic
+- Allowed Port: SSH (22)
+
+📸 Screenshot  
+![VM Running](screenshots/04-vm-running.png)
+
+---
+
+## 🔐 Step 7: Download SSH Private Key
+⚠️ Important: Key cannot be downloaded again.
+
+---
+
+## 🔑 Step 8: Connect to Linux VM via SSH
+
+```bash
+ssh -i <private-key-file-path> azureuser@20.197.53.147
+
+---
+
+## Step 8: Verify VM
+- uname -a
+- ls
+- df -h
+
+---
+
+## Step 9:Install Apache Web Server
+- sudo apt update
+- sudo install Apache2 -y
+
+---
+
+## Step 10: NSG Inbound Rule for HTTP
+Allow port 80 (HTTP) if Apache is not accessible.
+
+---
+
+## Step 11: Test Apache >> Open Browser type (http://<LinuxVM-PUBLIC-IP>
