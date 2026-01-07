@@ -35,20 +35,8 @@ This lab project a realworld enterprise scenario where an organization hosts:
 ---
 
 ## 🔹 Architecture Diagram
-User
-User
- │
- ├── HTTP (Port 80)
- │
- ┌───────────────┐     ┌────────────────┐
- │   Linux VM    │     │   Windows VM   │
- │   (Apache)    │     │     (IIS)      │
- │   Public IP   │     │   Public IP    │
- └───────────────┘     └────────────────┘
-        │                       │
-        └────── NSG Rules ──────┘
-           - Linux VM: 80, 22
-           - Windows VM: 80, 3389
+- User ------HTTP(port 80)-------Linux VM (Apache)Public IP----NSG Rules ---- Port: HTTP 80, SSH 22
+- User ------HTTP(port 80)-------Windows VM (IIS)Public IP----NSG Rules ---- Port: HTTP 80, RDP 3389 
 
 ---
 
