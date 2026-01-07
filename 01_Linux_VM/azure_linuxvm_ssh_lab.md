@@ -98,4 +98,5 @@ Allow port 80 (HTTP) if Apache is not accessible.
 
 ---
 
-## Step 11: Test Apache >> Open Browser type (http://<LinuxVM-PUBLIC-IP>
+## Step 11: Test Apache
+Open Browser type (http://<LinuxVM-PUBLIC-IP>
