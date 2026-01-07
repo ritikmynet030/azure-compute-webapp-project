@@ -11,7 +11,7 @@ The goal is to showcase hands-on Azure Compute skills by hosting web application
 - Deployment of Linux & Windows Virtual Machines
 - Web server setup: (Apache on linux) & (IIS on Windows VM) 
 - Secure access using SSH & RDP
-- Secure access using SSH & RDP
+- Public IP-based web access
 - Network Security Group (NSG) inbound rules
 - VM start, stop, resize operations
 - Auto-shutdown enabled for cost optimization
