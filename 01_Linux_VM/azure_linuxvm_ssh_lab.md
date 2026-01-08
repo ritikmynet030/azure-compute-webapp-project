@@ -59,38 +59,57 @@ Search → Virtual Machines → Create → Azure Virtual Machine
 - NSG: Basic
 - Allowed Port: SSH (22)
 
+---
+
+## Step 7: NSG Inbound Rule for HTTP
+Allow port 80 (HTTP) if Apache is not accessible.
+
 📸 Screenshot  
-![VM Running](screenshots/04-vm-running.png)
+![NSG Inbound](02_nsg_inbound_rules.png)
 
 ---
 
-## 🔐 Step 7: Download SSH Private Key
+## 🔐 Step 8: Download SSH Private Key
 ⚠️ Important: Key cannot be downloaded again.
 
 ---
 
-## 🔑 Step 8: Connect to Linux VM via SSH
+## 🔑 Step 9: Connect to Linux VM via SSH
 ssh -i <private-key-file-path> azureuser@20.197.53.147
+OR
+ssh azureuser@20.197.53.147 (in cmd/win+r)
+
+📸 Screenshot  
+![Linux Login](03_linux_vm_login.png)
 
 ---
 
-## Step 8: Verify VM
+## Step 10: Verify VM
 - uname -a
 - ls
 - df -h
 
+📸 Screenshot  
+![Linux_Output](04_linux_terminal_output.png)
+
 ---
 
-## Step 9:Install Apache Web Server
+## Step 11:Install Apache Web Server
 - sudo apt update
 - sudo install Apache2 -y
 
----
-
-## Step 10: NSG Inbound Rule for HTTP
-Allow port 80 (HTTP) if Apache is not accessible.
+📸 Screenshot  
+![Linux Login](05_linux_updating.png)
 
 ---
 
-## Step 11: Test Apache
-Open Browser type (http://LinuxVM-PUBLIC-IP
+📸 Screenshot  
+![Linux Login](06_apache_installation.png)
+
+---
+
+## Step 13: Test Apache
+Open Browser type (http://LinuxVM-PUBLIC-IP)
+
+📸 Screenshot  
+![Linux Login](07_apache_web_server_output.png)
