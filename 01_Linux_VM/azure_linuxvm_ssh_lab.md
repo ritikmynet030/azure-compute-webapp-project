@@ -11,22 +11,19 @@
 ## 🔹 Step 1: Login to Azure Portal
 Login to https://portal.azure.com
 
-📸 Screenshot  
-![Resource Group](screenshots/01-resource-group.png)
-
 ---
 
 ## 🔹 Step 2: Create Resource Group
 - Name: `rg-linuxvm-lab`
 - Region: `Central India`
 
-📸 Screenshot  
-![Resource Group](screenshots/01-resource-group.png)
-
 ---
 
 ## 🔹 Step 3: Create Virtual Machine
 Search → Virtual Machines → Create → Azure Virtual Machine
+
+📸 Screenshot  
+![Linux VM](screenshots/01-resource-group.png)
 
 ---
 
@@ -46,9 +43,6 @@ Search → Virtual Machines → Create → Azure Virtual Machine
 | SSH Key | Generate new key pair |
 | Key Pair Name | linux-vm-key |
 | Inbound Port | SSH (22) |
-
-📸 Screenshot  
-![VM Basics](screenshots/02-vm-basics.png)
 
 ---
 
