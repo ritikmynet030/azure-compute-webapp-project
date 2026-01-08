@@ -34,7 +34,7 @@ Search → Virtual Machines → Create → Azure Virtual Machine
 | Subscription | Free Trial |
 | Resource Group | rg-windowsxvm-lab |
 | VM Name | win-vm01 |
-| Region | Central India |
+| Region | East Asia |
 | Availability | No infrastructure redundancy |
 | Image | Windows Server 2019 Datacenter (or 2025) |
 | Size | Standard_B1s |
