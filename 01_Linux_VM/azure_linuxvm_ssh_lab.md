@@ -23,7 +23,7 @@ Login to https://portal.azure.com
 Search → Virtual Machines → Create → Azure Virtual Machine
 
 📸 Screenshot  
-![Linux VM](screenshots/01-resource-group.png)
+![Linux VM Created](01_linux.png)
 
 ---
 
