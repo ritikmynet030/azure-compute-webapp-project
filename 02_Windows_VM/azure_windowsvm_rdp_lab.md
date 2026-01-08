@@ -92,7 +92,7 @@ Inside the VM:
 4. Install and complete setup
 
 📸 Screenshot  
-![IIS Server Install](04_iis_server_installation)
+![IIS Server Install](04_iis_server_installation.png)
 
 ---
 
