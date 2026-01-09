@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "azurearmuser"
+      "value": "azureuser"
     },
     "adminPassword": {
-      "value": "StrongPassword@123"
+      "value": "Password@1234"
     }
   }
 }
