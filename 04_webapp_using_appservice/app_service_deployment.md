@@ -24,21 +24,30 @@
    - Region: Central India
 4. Click **Review + Create → Create**
 
+📸 Screenshot  
+![App Service Created](01_app_service_created.png)
+
 ---
 
 ## 🔹 Step 3: Upload Web App Code
 1. Open created App Service
 2. Go to **Deployment Center**
 3. Select **Local Git / FTP**
-4. Use **App Service Editor (Preview)**
-5. Navigate to `/site/wwwroot/`
-6. Upload `index.html`
+4. Use **App Service Editor (Preview)** or
+5. On left menu, scroll to Development Tools → Advanced Tools
+6. Click Go → (this opens Kudu in a new tab)
+7. In Kudu, click Debug Console → CMD
+8. Navigate to: site → wwwroot
+9. Upload or Create new `index.html`
 
 ---
 
-## 🔹 Step 4: Verify Web App
-1. Click **Browse**
-2. Access via: (https://<app-name>.azurewebsites.net)
+## 🔹 Step 4: Test and Verify Web App
+1.Copy the default domain from your created webappdemo app service
+2. Go to your **Browse** on local PC and Search
+
+📸 Screenshot  
+![Web App Deployed](02_web_app_deployed.png)
 
 ---
 
