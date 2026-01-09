@@ -25,7 +25,7 @@
 4. Click **Review + Create → Create**
 
 📸 Screenshot  
-![App Service Created](01_app_service_created.png)
+![App Service Created](01_webapp_service_created.png)
 
 ---
 
