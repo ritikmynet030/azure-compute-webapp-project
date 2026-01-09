@@ -7,17 +7,17 @@
       "defaultValue": "arm-linux-vm"
     },
     "adminUsername": {
-      "type": "string"
+      "type": "azurearmuser"
     },
     "adminPassword": {
-      "type": "secureString"
+      "type": "strongpassword"
     }
   },
   "resources": [
     {
       "type": "Microsoft.Compute/virtualMachines",
       "apiVersion": "2023-03-01",
-      "name": "[parameters('vmName')]",
+      "name": "[parameters('armvm')]",
       "location": "[resourceGroup().location]",
       "properties": {
         "hardwareProfile": {
