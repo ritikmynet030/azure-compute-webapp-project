@@ -99,12 +99,12 @@ ssh azureuser@20.197.53.147 (in cmd/win+r)
 - sudo install Apache2 -y
 
 📸 Screenshot  
-![Linux Login](05_linux_updating.png)
+![Linux Updating](05_linux_updating.png)
 
 ---
 
 📸 Screenshot  
-![Linux Login](06_apache_installation.png)
+![Apache Install](06_apache_installation.png)
 
 ---
 
@@ -112,4 +112,4 @@ ssh azureuser@20.197.53.147 (in cmd/win+r)
 Open Browser type (http://LinuxVM-PUBLIC-IP)
 
 📸 Screenshot  
-![Linux Login](07_apache_web_server_output.png)
+![Apache Server Output](07_apache_web_server_output.png)
