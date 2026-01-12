@@ -53,8 +53,8 @@
 1. Copy the Public IP of created load balancer
 2. Open browser >> Paste Public IP
 3. 🔁 Refresh multiple times.
-You will see:
-Apache Server –Linux VM1 (blue)
-then Apache Server –Linux VM2 (green)
+4. You will see:
+- Apache Server –Linux VM1 (blue)
+- then Apache Server –Linux VM2 (green)
 
 🎉 This proves load balancing is working
