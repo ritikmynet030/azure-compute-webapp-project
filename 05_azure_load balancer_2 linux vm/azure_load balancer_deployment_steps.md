@@ -19,7 +19,7 @@
 2. SSH (22)
 
 📸 Screenshot  
-![NSG Inbound Rules](02_nsg_inbound_rules_png)
+![NSG Inbound Rules](02_nsg_inbound_rules.png)
 
 ---
 
