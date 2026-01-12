@@ -37,9 +37,8 @@ In production environments, web applications must remain available even if one s
 ---
 
 ## 🔹 Architecture Diagram
-                                                      >>> Linux VM01 (Apache)
-User Browser >>>> Azure Load Balancer (Public IP) >>>>
-                                                      >>> Linux VM02 (Apache)
+                                                      
+User Browser >>>> Azure Load Balancer (Public IP) >>>> >>> Linux VM01 (Apache) & Linux VM02 (Apache)
                                                       
 ---
 
