@@ -58,3 +58,13 @@
 - then Apache Server –Linux VM2 (green)
 
 🎉 This proves load balancing is working
+
+---
+
+📸 Screenshot  
+![Linux VM 01](01_apache_web_page.png)
+
+---
+
+📸 Screenshot  
+![Linux VM 01](02_apache_web_page.png)
