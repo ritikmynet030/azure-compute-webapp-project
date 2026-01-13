@@ -34,10 +34,16 @@ This project demonstrates the deployment of a **web service hosted on both Linux
 ---
 
 ## 🔹 Real-World Scenario
-This lab project a realworld enterprise scenario where an organization hosts:
-- A linux-based application for open-source workloads.
-- A windows-based application for legacy or.NET workloads.
-  
+This project represents a real-world enterprise cloud scenario where an organization hosts **multiple application workloads** using modern Azure practices:
+- A **Linux-based application** for open-source, microservices, or lightweight web workloads (e.g., Apache-hosted services)
+- A **Windows-based application** for legacy systems or .NET-based enterprise applications hosted on IIS
+
+To ensure **consistency, automation, and scalability,** the infrastructure is provisioned using **ARM Templates (Infrastructure as Code)**, allowing repeatable deployments across environments such as Dev, Test, and Production.
+
+For customer-facing workloads, the organization implements **Azure Load Balancer** to distribute incoming HTTP traffic across **multiple Linux web servers**, ensuring:
+- High Availability
+- Fault Tolerance
+- Improved performance during traffic spikes
 
 ---
 
