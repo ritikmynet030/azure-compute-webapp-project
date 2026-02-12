@@ -47,7 +47,7 @@ For customer-facing workloads, the organization implements **Azure Load Balancer
 
 ---
 
-## 🔹 Architecture Diagra
+## 🔹 Architecture Diagram
 1. Linux and Windows VM 
    - User ------HTTP(port 80)-------Linux VM (Apache)Public IP----NSG Rules ---- Port: HTTP 80, SSH 22
    - User ------HTTP(port 80)-------Windows VM (IIS)Public IP----NSG Rules ---- Port: HTTP 80, RDP 3389
